@@ -6,6 +6,7 @@
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	char ch  = 'a';
@@ -15,7 +16,7 @@ int main(void)
 		if (ch == 'e' || ch == 'q')
 			ch++;
 		putchar(ch);
-		ch++
+		ch++;
 	}
 	putchar('\n');
 
