@@ -1,6 +1,6 @@
-#include <stdio>
+#include <stdio.h>
 /**
- * main - Entry point 
+ * main - Entry point
  *
  * Description: print all alphabet letters
  *
@@ -18,4 +18,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}	
+}
