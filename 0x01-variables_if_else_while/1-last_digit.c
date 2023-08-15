@@ -5,12 +5,14 @@
 /**
  * main - entry point
  *
- * Description: print the calue of n status: 
+ * Description: print the calue of n status:
+ *
  * greater than  zero and is not less than 6.
  *
  * Return: 0 (Success)
  */
-int main(void) 
+
+int main(void)
 {
 	int n, digit;
 
