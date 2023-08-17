@@ -2,7 +2,7 @@
 
 /**
  * print_to_98- print n to 98 counts
- * separated by comma, followed
+ * separated by comma, followd
  * by space and number should be 
  * printed in order
  *
