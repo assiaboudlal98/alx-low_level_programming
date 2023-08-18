@@ -3,7 +3,7 @@
 /**
  * print_line - print a straight line
  *
- * @n: is the number of time the _character should print
+ * @n: is the number of time the _character should print 
  *
  */
 
@@ -12,7 +12,7 @@ void print_line(int n)
 	int lnChr;
 
 	if (n <= 0)
-		_putchar(\'n');
+		_putchar('\n');
 	else
 	{
 		for (lnChr = 1; lnChr <= n; lnChr++)
