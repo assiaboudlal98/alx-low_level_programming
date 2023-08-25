@@ -21,7 +21,7 @@ char *rot(char *s)
 		{
 			if (s[i] == datal[j])
 			{
-				s[i] = datarot[j];
+				s[i] == datarot[j];
 				break;
 			}
 		}
