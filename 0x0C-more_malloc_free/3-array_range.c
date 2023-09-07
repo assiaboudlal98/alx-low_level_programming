@@ -9,7 +9,7 @@
 int *array_range(int min, int max)
 {
 	int ert, e;
-	int*ken;
+	int *ken;
 
 	if (min > max)
 		return (NULL);
