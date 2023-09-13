@@ -9,16 +9,16 @@
  */
 int main(int argc, char **argv)
 {
-	char *p = (char *)main;
+	char *d = (char *)main;
 	int f;
 
 	if (argc != 2)
 		printf("Error\n"), exit(1);
-	f = atoi(argv[1];
+	f = atoi(argv[1]);
 	if (f < 0)
 		printf("Error\n"), exit(2);
 
 	while (f--)
-		printf("%02hhx%s", *p++, f ? " " : "\n");
+		printf("%02hhx%s", *d++, f ? " " : "\n");
 	return (0);
 }
