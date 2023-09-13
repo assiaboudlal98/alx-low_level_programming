@@ -9,7 +9,7 @@
  */
 int main(int argc, char **argv)
 {
-	char *d = (char *)main;
+	char *p = (char *)main;
 	int f;
 
 	if (argc != 2)
@@ -19,6 +19,6 @@ int main(int argc, char **argv)
 		printf("Error\n"), exit(2);
 
 	while (f--)
-		printf("%02hhx%s", *d++, f ? " " : "\n");
+		printf("%02hhx%s", *p++, f ? " " : "\n");
 	return (0);
 }
