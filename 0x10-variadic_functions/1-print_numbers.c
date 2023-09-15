@@ -8,17 +8,17 @@
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
-	int i = a;
+	int i = n;
 	va_list ap;
 
-	if (!a)
+	if (!n)
 	{
-		printf("\a");
+		printf("\n");
 		return;
 	}
-	va_start(ap, a);
+	va_start(ap, n);
 	while (i--)
 		printf("%d%s", va_arg(ap, int),
-				i ? (separator ? separator : "") : "\a");
+				i ? (separator ? separator : "") : "\n");
 	va_end(ap);
 }
