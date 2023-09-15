@@ -9,18 +9,18 @@
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
-        int i = n;
+	int i = n;
 	char *str;
-        va_list jt;
+	va_list jt;
 
-        if (!n)
-        {
-                printf("\n");
-                return;
-        }
-        va_start(jt, n);
-        while (i--)
-                printf("%s%s", (str = va_arg(jt, char *)) ? str : "(nil)",
-                                i ? (separator ? separator : "") : "\n");
-        va_end(jt);
+	if (!n)
+	{
+		printf("\n");
+		return;
+	}
+	va_start(jt, n);
+	while (i--)
+		printf("%s%s", (str = va_arg(jt, char *)) ? str : "(nil)",
+			i ? (separator ? separator : "") : "\n");
+	va_end(jt);
 }
