@@ -9,17 +9,17 @@
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	int i = a;
-	va_list jt;
+	va_list ap;
 
 	if (!a)
 	{
 		printf("\n");
 		return;
 	}
-	va_start(jt, a);
+	va_start(ap, a);
 	while (i--)
-		printf("%d%s", va_arg(jt, int)
+		printf("%d%s", va_arg(ap, int),
 				i ? (separator ? separator : "") : "\n");
-	va_end(jt);
+	va_end(ap);
 }
 
