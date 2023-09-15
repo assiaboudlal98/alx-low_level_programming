@@ -3,8 +3,8 @@
 /**
  * prints_strings - prints strings, followed by a new line.
  * @separator: the string separator
- * @n: the numbers of arguments
- * @...: the integers to print
+ * @n: the number of arguments
+ * @...: the strings to print
  * Return: void
  */
 void print_strings(const char *separator, const unsigned int n, ...)

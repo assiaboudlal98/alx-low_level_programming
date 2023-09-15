@@ -3,6 +3,7 @@
 /**
  * prints_numbers - prints numbers, followed by a new line.
  * @separator: the string separator
+ * @n: the number of arguments
  * @...: the integers to print
  * Return: void
  */
