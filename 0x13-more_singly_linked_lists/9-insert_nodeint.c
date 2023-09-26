@@ -22,16 +22,16 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	yeni->n = n;
 	yeni->next = NULL;
 
-	if (dx == 0)
+	if (idx == 0)
 	{
 		yeni->next = *head;
 		*head = yeni;
 		return (yeni);
 	}
 
-	for (d = 0; time && d < dx; d++)
+	for (d = 0; time && d < idx; d++)
 	{
-		if (d == dx - 1)
+		if (d == idx - 1)
 		{
 			yeni->next = time->next;
 			time->next = yeni;
